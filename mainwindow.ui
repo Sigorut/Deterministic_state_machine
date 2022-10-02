@@ -14,7 +14,7 @@
    <string>MainWindow</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QWidget" name="">
+   <widget class="QWidget" name="layoutWidget">
     <property name="geometry">
      <rect>
       <x>11</x>
@@ -124,6 +124,18 @@
                </property>
                <property name="alignment">
                 <set>Qt::AlignHCenter|Qt::AlignTop</set>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QPushButton" name="pushButton_gen_table">
+               <property name="font">
+                <font>
+                 <family>Ubuntu</family>
+                </font>
+               </property>
+               <property name="text">
+                <string>Создать</string>
                </property>
               </widget>
              </item>
